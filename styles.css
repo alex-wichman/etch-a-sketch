@@ -1,0 +1,32 @@
+
+
+body {
+    height: 100vh;
+    margin: 0;
+
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+ .row, body{
+    display: flex;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.border-top {
+    border-top: 5px solid black;
+}
+.border-bottom {
+    border-bottom:  5px solid black;
+}
+.border-right {
+    border-right:  5px solid black;
+}
+.border-left {
+    border-left: 5px solid black;
+}
